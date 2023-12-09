@@ -1,0 +1,11 @@
+body {
+    background: bisque;
+    margin-top: 100px;
+    text-align: center;
+}
+
+table {
+    color: brown;
+    font-size: 1em;
+    font-family: "Arial Black";
+}
