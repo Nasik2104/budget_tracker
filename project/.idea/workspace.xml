@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31334102-3c75-4446-afbe-3234d45761d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../09_07/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../09_07/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/classworck.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/homework.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/am/final.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/am/tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/conf/mfcc.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/conf/model.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/graph/Gr.fst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/graph/HCLr.fst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/graph/disambig_tid.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/graph/phones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/graph/phones/word_boundary.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/graph/words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/ivector/final.dubm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/ivector/final.ie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/ivector/final.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/ivector/global_cmvn.stats" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/ivector/online_cmvn.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-en-us-0.22-lgraph/ivector/splice.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/am/final.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/conf/mfcc.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/conf/model.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/graph/Gr.fst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/graph/HCLr.fst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/graph/disambig_tid.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/graph/phones/word_boundary.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/graph/words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/ivector/final.dubm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/ivector/final.ie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/ivector/final.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/ivector/global_cmvn.stats" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/ivector/online_cmvn.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/ivector/splice.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_07/vosk-model-uk-v3-lgraph/ivector/splice_opts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2ZGVQpaOxGphAq3yTKLqiOGMedG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31334102-3c75-4446-afbe-3234d45761d3" name="Changes" comment="" />
+      <created>1702048389630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702048389630</updated>
+      <workItem from="1702048403544" duration="688000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
