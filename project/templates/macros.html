@@ -1,0 +1,15 @@
+{% macro choose_pizza(pizza_name, data_menu) %}
+    <link rel = "stylesheet" href="static/css/main.css">
+    {% for pizza in data_menu %}
+        {% if pizza_name == pizza.name %}
+            <div id = wrapper>
+                <img src={{pizza.img}} class = 'center-img'>
+                <div class="center-txt">
+                    <p>{{pizza.name}}</p>
+                </div>
+            </div>
+
+            <p>{{ pizza.ingredients }}</p>
+        {% endif %}
+    {% endfor %}
+{% endmacro %}

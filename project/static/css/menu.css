@@ -9,3 +9,9 @@ table {
     font-size: 1em;
     font-family: "Arial Black";
 }
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    padding: 20px;
+}

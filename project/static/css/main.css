@@ -25,10 +25,35 @@ a {
 .center-img,
 .center-txt {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 #wrapper {
-  text-align: center;
-  border: none;
+    text-align: unset;
+    border: none;
+    height: initial;
+}
+
+h2 {
+    color: #9C1A1C;
+    font-size: 6em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table {
+    color: brown;
+    font-size: 1em;
+    background: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+
 }

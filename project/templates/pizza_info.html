@@ -1,0 +1,8 @@
+{% import "macros.html" as macros %}
+
+{% extends "base.html" %}
+
+{% block content %}
+
+    {{ macros.choose_pizza(pizza_name, data_menu) }}
+{% endblock content %}

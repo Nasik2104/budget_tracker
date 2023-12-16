@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="uk">
-    <head>
-        <title>Меню</title>
-        <link rel="stylesheet" href="/static/css/menu.css">
-    </head>
+{% extends "base.html" %}
+
+{% block content %}
+
     <style>
         table {
             border-collapse: collapse;
@@ -32,6 +30,8 @@
         }
     </style>
     <body>
+        <link rel = stylesheet href = "/static/css/menu.css">
+        <h2>МЕНЮ</h2>
         <table>
 
             <tr>
@@ -39,31 +39,16 @@
                 <th>Інгридієнти</th>
                 <th>Ціна</th>
             </tr>
-            <tr>
-                <td>Маргарита</td>
-                <td>Сир Моцарелла, Базилік(зелень), Помідор, Кетчуп, Орегано</td>
-                <td>140 грн</td>
-            </tr>
-            <tr>
-                <td>Пепероні</td>
-                <td>Сир Моцарелла, Пепероні, Пармезан</td>
-                <td>130 грн</td>
-            </tr>
-            <tr>
-                <td>3 Сири</td>
-                <td>Томатна паста, Dor Blue, Пармезан, Сир Філадельфії</td>
-                <td>125 грн</td>
-            </tr>
-            <tr>
-                <td>Гавайська</td>
-                <td>Сир Моцарелла, Шинка, Томатна паста, Ананас консервований, Помідор</td>
-                <td>135 грн</td>
-            </tr>
-            <tr>
-                <td>4 сезони</td>
-                <td>Сир Моцарелла, Салямі, Томатна паста, Помідор, Шинка, Гриби</td>
-                <td>150 грн</td>
+            {% for pizza in data_menu %}
+                <tr>
+                    <td>
+                        <a href="/pizza_info?pizzaname={{ pizza.name }}"> {{ pizza.name }} </a>
+                    </td>
+                    <td> {{pizza.ingredients}}</td>
+                    <td> {{pizza.price}}</td>
+                </tr>
+            {% endfor %}
             </tr>
         </table>
     </body>
-</html>
+{% endblock content %}
