@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<body>
+    <link rel="stylesheet" href="/static/css/order.css">
+    <header>
+        <h3>Форма замовлення</h3>
+    </header>
+
+    <form method="post">
+        <p> {{pizza_name}} </p>
+
+        <label for="quantity">Кількість:</label>
+        <input type="number" id="quantity" name="quantity" required></br>
+
+        <label for="name">Ваше ім'я:</label>
+        <input type="text" id="name" name="name" required></br>
+
+        <label for="email">Ваш електронний адрес:</label>
+        <input type="email" id="email" name="email" required></br>
+
+        <label for="adress">адрес доставки:</label>
+        <input type="adress" id="adress" name="adress" required></br>
+
+        <label for="phone">номер телефону:</label>
+        <input type="phone" id="phone" name="phone" required></br>
+
+        <button type="submit">Замовити</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2023 Ваша компанія. Усі права захищено.</p>
+    </footer>
+
+</body>
+{% endblock content %}

@@ -10,6 +10,12 @@
             </div>
 
             <p>{{ pizza.ingredients }}</p>
+            <button onclick="redirectToNewPage()">Замовити</button>
+            <script>
+                function redirectToNewPage() {
+                window.location.href = '/order?pizzaname={{ pizza.name }}';
+                }
+            </script>
         {% endif %}
     {% endfor %}
 {% endmacro %}

@@ -57,3 +57,13 @@ h3 {
     font-family: 'Lucida Grande', Arial, sans-serif;
 
 }
+
+button {
+    color: white;
+    width: 220px;
+    height: 100px;
+    font-size: 2em;
+    background: #3A7734;
+    border: none;
+    border-radius: 10px;
+}
