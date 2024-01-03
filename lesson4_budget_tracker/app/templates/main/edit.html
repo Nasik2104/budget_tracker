@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit spending</title>
+    <link rel="stylesheet" href="/static/css/main/main.css">
+</head>
+<body>
+<h1>Create new category</h1>
+    <form method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required> <br/>
+        <label for="name">Category</label>
+        <input type="tel" name="category_id" id="category_id" list="names" required> <br/>
+        <datalist id="names">
+            {% for category in names %}
+
+                <option>{{category[1]}}</option>
+
+            {% endfor %}
+        </datalist>
+        <label for="name">Date</label>
+        <input type="date" name="date" id="date"> <br/>
+            <script>
+                let today = new Date().toISOString().split('T')[0];
+                document.getElementById('date').value = today;
+            </script>
+        <label for="name">Spending</label>
+        <input type="text" name="spend" id="spend"> <br/>
+        <label for="name">Is spend</label>
+        <input type="checkbox" name="is_spend" id="is_spend"> <br/>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

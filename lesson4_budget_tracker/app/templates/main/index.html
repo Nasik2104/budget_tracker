@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spendings</title>
+    <link rel="stylesheet" href="/static/css/main/main.css">
+</head>
+<header>
+    <a href = '/categories'><button>Categories</button></a>
+    <a href = '/create'><button>Create</button></a>
+    <a href = '/report'><button>Report</button></a>
+    <a href = '/'><button>Spendings</button></a>
+
+</header>
+<body>
+    <h1>Spendings</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Date</th>
+                <th>spending</th>
+                <th>Is spending</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for spending in spendings %}
+             <tr>
+                <td>{{ spending.name }}</td>
+                <td>{{ spending.category }}</td>
+                <td>{{ spending.date }}</td>
+                <td>{{ spending.spending }}</td>
+                <td>{{ spending.is_spending }}</td>
+                <td><a href="{{ url_for('/.edit_spending', spending_id=spending.id) }}"><button>Edit</button></a></td>
+                <td><a href="{{ url_for('/.delete_spending', spending_id=spending.id) }}"><button>Delete</button></a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+
+</body>
+</html>
