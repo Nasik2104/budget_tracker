@@ -156,6 +156,7 @@ class SpendingsDb(DefaultInterface):
 
 
     def edit_spending(self, id, **kwargs):
+        name = classmethod.__name__
         name_of_columns, insert_times, columns, values = self.get_write_data(**kwargs)
         values.append(id)
         update_fields=''
