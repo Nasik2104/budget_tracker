@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<header>
+{% block nav%}
+    <link rel="stylesheet" href="/static/css/main.css">
+    <a href="/"><button>Home</button></a>
+    <a href="/types"><button>Types</button></a>
+    <a href="/supliers"><button>Suppliers</button></a>
+
+    <form action="/search" method="get">
+        <label for="search"></label>
+        <input type="text" id="search" name="q" placeholder="Знайти товар">
+
+    </form>
+
+
+{% endblock nav%}
+</header>
+
+<body>
+{% block main%}
+{% endblock main%}
+
+{% block footer%}
+{% endblock footer%}
+</body>
+</html>

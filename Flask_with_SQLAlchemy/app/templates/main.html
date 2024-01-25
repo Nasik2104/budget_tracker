@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<h1>Spendings</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Quantity in stock</th>
+                <th>Suplier</th>
+                <th>type</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for product in products %}
+             <tr>
+                <td>{{ product.name }}</td>
+                <td>{{ product.quantity_in_stock }}</td>
+                <td>{{ product.suplier_id }}</td>
+                <td>{{ product.product_type_id }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock main %}

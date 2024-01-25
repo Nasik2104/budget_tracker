@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<h1>Spendings</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>id</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            {% for supplier in suppliers %}
+             <tr>
+                <td>{{ suppliers.name }}</td>
+                <td>{{ suppliers.id }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock main %}
