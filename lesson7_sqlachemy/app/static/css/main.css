@@ -1,0 +1,41 @@
+body {
+    background: bisque;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+}
+
+input {
+    font-size: 20px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+form {
+    font-size: 20px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+
+}
+
+button {
+    background: burlywood;
+    border: #9C1A1C;
+    padding: 15px 30px;
+    font-size: 20px;
+    flex-grow: unset;
+    cursor: pointer;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-size: 25px;
+}

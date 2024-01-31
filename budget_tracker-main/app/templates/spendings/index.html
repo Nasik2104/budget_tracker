@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spendings</title>
+</head>
+<body>name=name, category_id=category_id, spend_date=spend_date, spending=spending, is_spending=is_spending
+    <h1>Spendings</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Date</th>
+                <th>Spending</th>
+                <th>Spend/Income</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            {% for spending in spendings_dict %}
+             <tr>
+                <td>{{ spending.name }}</td>
+                <td>{{ spending.category_id }}</td>
+                <td>{{ spending.spend_date }}</td>
+                <td>{{ spending.spending }}</td>
+                <td>{{ spending.is_spending }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

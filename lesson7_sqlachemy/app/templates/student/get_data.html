@@ -1,0 +1,13 @@
+{%  extends "base.html" %}
+
+{% block main %}
+
+{% if content %}
+    <h1>Name: {{content.name}}</h1>
+    <h1>Surname: {{content.surname}}</h1>
+    <h1>Age: {{content.age}}</h1>
+    <h1>Address: {{content.address}}</h1>
+
+
+{% endif %}
+{% endblock main %}
