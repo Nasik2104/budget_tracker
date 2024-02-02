@@ -7,23 +7,26 @@
 </head>
 <body>
     <header class="p-3 bg-dark text-white">
+
+        <h1>Check Weather</h1>
         <form action="/" method="get" class="d-flex align-items-center">
-            <input type="search" class="form-control me-3" placeholder="Enter city..." name='q' aria-label="Search">
-            <button type="submit" class="btn btn-primary">Search</button>
+            <input type="search" class="form-control me-4" placeholder="Enter city..." name='q' aria-label="Search">
+            <button type="submit" class="btn btn-primary">🔍</button>
         </form>
     </header>
     <div class="container mt-5">
         {% if data['message'] %}
             <div class="alert alert-danger" role="alert">
-                Check city name
+                ⚠️Check city name
             </div>
         {% else %}
-            <h1 class="mt-3">Weather: {{ data['weather'][0]['main'] }}</h1>
-            <h2>Temperature: {{ data['main']['temp'] }}°C</h2>
-            <h2>Feels like: {{ data['main']['feels_like'] }}°C</h2>
-            <h2>Humidity: {{ data['main']['humidity'] }}%</h2>
-            <h2>Pressure: {{ data['main']['pressure'] }} hPa</h2>
-            <h2>Wind: {{ data['wind']['speed'] }} m/s</h2>
+            <h1 class="mt-3">Weather in {{ data['name'] }}</h1>
+            <h2>Weather: {{ data['weather'][0]['main'] }}</h2>
+            <h2>🌡️Temperature: {{ data['main']['temp'] }}°C</h2>
+            <h2>🌡️Feels like: {{ data['main']['feels_like'] }}°C</h2>
+            <h2>💧Humidity: {{ data['main']['humidity'] }}%</h2>
+            <h2>🌬️Pressure: {{ data['main']['pressure'] }} hPa</h2>
+            <h2>💨Wind: {{ data['wind']['speed'] }} m/s</h2>
         {% endif %}
     </div>
 </body>
