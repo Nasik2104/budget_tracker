@@ -8,7 +8,6 @@ import requests
 bp = Blueprint("default", __name__)
 
 wea = "47ac3b0e8423e801dd60854c54b2f58f"
-
 @bp.route('/', methods=["GET"])
 def main_page():
     value = request.args.get('q')

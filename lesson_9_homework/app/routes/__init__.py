@@ -1,0 +1,1 @@
+from .defaul import bp as default_bp
