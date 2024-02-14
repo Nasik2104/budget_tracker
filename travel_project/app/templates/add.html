@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<div class="container mt-5">
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            {{ form.name(class="form-control") }}
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            {{ form.transport(class="form-control") }}
+        </div>
+        </div>
+        <div class="mb-3">
+            <label for="destination" class="form-label">Destination</label>
+            {{ form.destination(class="form-control") }}
+        </div>
+        <div class="mb-3">
+            <label for="departure" class="form-label">Departure</label>
+            {{ form.departure(class="form-control") }}
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="start" class="form-label">Start Date</label>
+                {{ form.start(class="form-control") }}
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="end" class="form-label">End Date</label>
+                {{ form.end(class="form-control") }}
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            {{ form.price(class="form-control") }}
+        </div>
+        <div class="mb-3">
+            <label for="img_link" class="form-label">Image Link</label>
+            {{ form.img_link(class="form-control") }}
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            {{ form.description(class="form-control") }}
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+{% endblock main %}

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="{{ travel.img_link }}" class="img-fluid" alt="Tour Image">
+        </div>
+        <div class="col-md-6">
+            <div>
+
+                <h2>{{ travel.name }}</h2>
+                <p>{{ travel.description }}</p>
+                <h3>Details:</h3>
+                <ul>
+                    <li>Duration: {{ travel.duration }} days</li>
+                    <li>Price: UAN{{ travel.price }}</li>
+                    <li>Destination: {{ travel.departure }}</li>
+                    <li>Departure: {{ travel.departure }}</li>
+                </ul>
+                <form method="post">
+                    <button type="submit" class="btn btn-primary">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main %}
