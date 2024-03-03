@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+<body>
+<form action="/register/" method="POST">
+  <div class="form-group">
+    {{form.email.label }}
+    {{form.email(class="form-control", placeholder="Email")}}
+  </div>
+  <div class="form-group">
+    {{form.password.label }}
+    {{form.password(class="form-control", placeholder="Password")}}
+  </div>
+ <div class="form-check">
+    {{form.remember(class="form-check-input") }}
+    {{form.remember.label}}
+ </div>
+  {{form.submit(class="btn-primary")}}
+
+</form>
+</body>
+</html>

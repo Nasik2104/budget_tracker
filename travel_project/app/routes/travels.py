@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, request, redirect, flash, url_for
+from flask import Blueprint, render_template, request, redirect, url_for
 from sqlalchemy import select, update
 
 from app.database import Session
@@ -70,7 +70,7 @@ def edit(travel_id):
                               destination=destination, departure=departure, start=start,end=end, price=price,
                               img_link=img_link, description=description))
             session.commit()
-        return redirect(url_for('default.index', result=result))
+        return redirect(url_for('default.index'))
     return render_template("edit.html", form=form)
 
 @bp.route('/delete/<int:travel_id>', methods=["GET", "POST"])
@@ -82,7 +82,7 @@ def delete(travel_id):
             session.delete(tour)
             session.commit()
 
-        return redirect(url_for('default.index'))
+        return redirect(    url_for('default.index'))
 
     with Session() as session:
         tour = session.scalars(query).one()
